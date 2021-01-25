@@ -7,11 +7,16 @@
     <title>Vue-hello</title>
   </head>
   <body>
+    <div id="app">
 
-      <h1 id="root"> {{ message }} </h1>
 
-      <button @click="click">Clicca</button>
-
+    <div :class="{ bck : change }">
+    <h1 id="root"> {{ message }} </h1>
+    <div class="img">
+        <button @click="click">Clicca</button>
+      </div>
+     </div>
+   </div>
     <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>

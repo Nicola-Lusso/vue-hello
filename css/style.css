@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.img{
+  padding-bottom: 55%;
+}
+
+button{
+
+  font-size: 30px;
+}
+
+/* body{
+  background-color: red;
+} */
+
+.bck {
+  background-size: cover;
+  background-image: url(https://www.bpcharter.it/wp-content/uploads/2017/08/sardegna-1.jpg);
+}
