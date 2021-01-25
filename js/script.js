@@ -13,5 +13,10 @@ var app = new Vue({
     click() {
       this.change = true;
     }
+  },
+  methods: {
+  click () {
+    this.change = !this.change
   }
+}
 })
